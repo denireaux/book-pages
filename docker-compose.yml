@@ -1,0 +1,9 @@
+services:
+  
+  frontend: 
+    container_name: book-frontend 
+    build:
+      context: ./book-page
+      dockerfile: Dockerfile 
+    ports:
+      - 80:80

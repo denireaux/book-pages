@@ -41,7 +41,7 @@ import {
 
 const BODY_FONT = '20px "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif'
 const BODY_LINE_HEIGHT = 32
-const CREDIT_TEXT = "D'Angelo L. DeNiro"
+const CREDIT_TEXT = "D'Angelo L. DeNiro - March 29th, 2026"
 const CREDIT_FONT = '12px "Helvetica Neue", Helvetica, Arial, sans-serif'
 const CREDIT_LINE_HEIGHT = 16
 const HEADLINE_TEXT = "SUSAN & D'ANGELO"

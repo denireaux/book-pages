@@ -7,6 +7,7 @@ export default defineConfig({
       input: {
         main: 'index.html',
         dynamicLayout: 'dynamic-layout.html',
+        pageTwo: 'pages/page-two/page-two.html',
       },
     },
   },

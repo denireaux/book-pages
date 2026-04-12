@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Susan</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #1c1c1e;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+  }
+  .page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 32px 16px;
+  }
+  .name {
+    font-size: 13px;
+    color: #8e8e93;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+  }
+  .chat {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .msg {
+    padding: 8px 12px;
+    border-radius: 18px;
+    font-size: 15px;
+    line-height: 1.4;
+    width: fit-content;
+    max-width: 80%;
+    overflow-wrap: break-word;
+  }
+  .msg.sent {
+    align-self: flex-end;
+    background: #0b84fe;
+    color: white;
+    border-bottom-right-radius: 4px;
+  }
+  .msg.recv {
+    align-self: flex-start;
+    background: #2c2c2e;
+    color: white;
+    border-bottom-left-radius: 4px;
+  }
+  .msg.photo {
+    padding: 0;
+    background: none;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  .msg.photo img {
+    display: block;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 18px;
+  }
+  .time {
+    font-size: 11px;
+    color: #636366;
+    text-align: center;
+    margin: 12px 0 6px;
+  }
+</style>
+</head>
+<!-- <base href="/book-pages/"> -->
+<body>
+  <div class="page">
+    <div class="name">Susan Bai</div>
+    <div class="chat">
+      <div class="time">Today 2:14 PM</div>
+      <div class="msg recv">What're you up to?</div>
+      <div class="msg sent">Nothing, being angry.</div>
+      <div class="msg sent">You can tell by my periods.</div>
+      <div class="msg recv">How's this?</div>
+      <div class="msg recv photo">
+        <!-- <img src="../../drawing.jpg" alt="drawing"> NOTE: Local development only -->
+        <img src="/book-pages/drawing.jpg" alt="drawing">
+      </div>
+      <div class="msg sent">That's not even fair</div>
+      <!-- <div class="msg recv">you didn't even ask where I live</div> -->
+      <div class="msg sent">I guess it's working</div>
+      <div class="msg recv">Good</div>
+      <div class="msg sent">Thank you, I love you</div>
+    </div>
+  </div>
+</body>
+</html>

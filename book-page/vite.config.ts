@@ -8,6 +8,7 @@ export default defineConfig({
         main: 'index.html',
         dynamicLayout: 'dynamic-layout.html',
         pageTwo: 'pages/two/two.html',
+        susan: 'pages/susan/index.html',
       },
     },
   },

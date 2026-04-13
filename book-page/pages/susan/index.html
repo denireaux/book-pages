@@ -1,13 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Susan</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0f0f0f;
+    color: #e8e8e8;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .page {
+    width: min(480px, 100vw - 48px);
+    padding: 64px 0;
+  }
+  .header {
+    margin-bottom: 56px;
+  }
+  .title {
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .name {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #e8e8e8;
+  }
+  .list {
+    list-style: none;
+    border-top: 0.5px solid #222;
+  }
+  .list li {
+    border-bottom: 0.5px solid #222;
+  }
+  .list a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 20px 0;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.15s;
+  }
+  .list a:hover { color: #fff; }
+  .list a:hover .arrow { color: #fff; }
+  .entry-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #e8e8e8;
+  }
+  .arrow {
+    font-size: 14px;
+    color: #333;
+    transition: color 0.15s;
+  }
+</style>
 </head>
 <body>
-
-    <h1>de_test-index</h1>
-    
+  <div class="page">
+    <div class="header">
+      <p class="title">D'Angelo</p>
+      <h1 class="name">For Susan</h1>
+    </div>
+    <ul class="list">
+      <li>
+        <a href="./dynamic-layout.html">
+          <span class="entry-title">Letters</span>
+          <span class="arrow">→</span>
+        </a>
+      </li>
+      <li>
+        <a href="./susan/index.html">
+          <span class="entry-title">Seen at 2:14</span>
+          <span class="arrow">→</span>
+        </a>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>

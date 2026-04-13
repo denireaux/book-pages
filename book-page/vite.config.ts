@@ -9,6 +9,7 @@ export default defineConfig({
         dynamicLayout: 'dynamic-layout.html',
         pageTwo: 'pages/two/two.html',
         susan: 'pages/susan/index.html',
+        valentinesDay: 'pages/valentines-day/index.html',
       },
     },
   },

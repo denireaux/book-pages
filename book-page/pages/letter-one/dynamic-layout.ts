@@ -37,7 +37,7 @@ import {
   type Interval,
   type Point,
   type Rect,
-} from './wrap-geometry.ts'
+} from '../../wrap-geometry.ts'
 
 const BODY_FONT = '20px "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif'
 const BODY_LINE_HEIGHT = 32

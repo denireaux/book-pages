@@ -6,9 +6,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        dynamicLayout: 'dynamic-layout.html',
-        pageTwo: 'pages/two/two.html',
-        susan: 'pages/susan/index.html',
+        letterOne: 'letter-one.html',
+        iPhoneMessages: 'pages/iphone-messages/iphone-messages.html',
+        susan: 'pages/table-of-contents/index.html',
         valentinesDay: 'pages/valentines-day/index.html',
       },
     },

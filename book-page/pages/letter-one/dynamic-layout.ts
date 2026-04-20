@@ -23,9 +23,7 @@ This page's made to show off our layout APIs:
 */
 import { layoutNextLine, prepareWithSegments, walkLineRanges } from "@chenglou/pretext"
 import { BODY_COPY } from './dynamic-layout-text.ts'
-import openaiLogoUrl from "./src/assets/openai-symbol.svg"
-// import claudeLogoUrl from "./src/assets/claude-symbol.svg"
-import flowerUrl from "./src/assets/flower.svg"
+import flowerUrl from "../../src/assets/flower.svg"
 
 import {
   carveTextLineSlots,

@@ -6,7 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        letterOne: 'letter-one.html',
+        letterOne: 'pages/letter-one/letter-one.html',
         iPhoneMessages: 'pages/iphone-messages/iphone-messages.html',
         susan: 'pages/table-of-contents/index.html',
         valentinesDay: 'pages/valentines-day/index.html',
